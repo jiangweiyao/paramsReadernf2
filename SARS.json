@@ -1,0 +1,51 @@
+{
+   "analysisId" : "J58JN_MiSeq8",
+   "keepAllTempFiles" : "true",
+   "launchQueue" : null,
+   "projects" : [
+      {
+         "samples" : [
+            {
+               "sampleOutputDir" : "BC01",
+               "forwardFastq" : "/home/jyao/paramsReadernf2/fastq/BC01_1kb_20k.fastq.gz",
+               "groupId" : "S9",
+               "sampleName" : "9Ct26"
+            },
+            {
+               "sampleOutputDir" : "BC02",
+               "forwardFastq" : "/home/jyao/paramsReadernf2/fastq/BC02_1kb_20k.fastq.gz",
+               "groupId" : "S10",
+               "sampleName" : "10Ct26"
+            },
+            {
+               "sampleOutputDir" : "BC03",
+               "forwardFastq" : "/home/jyao/paramsReadernf2/fastq/BC03_1kb_20k.fastq.gz",
+               "groupId" : "S11",
+               "sampleName" : "11Ct25"
+            },         
+            {
+	       "sampleOutputDir" : "BC04",
+	       "forwardFastq" : "/home/jyao/paramsReadernf2/fastq/BC04_1kb_20k.fastq.gz",
+	       "groupId" : "S11",
+               "sampleName" : "12Ct25"
+            },
+            {
+	       "sampleOutputDir" : "BC05",
+	       "forwardFastq" : "/home/jyao/paramsReadernf2/fastq/BC05_1kb_20k.fastq.gz",
+	       "groupId" : "S11",
+	       "sampleName" : "13Ct25"
+            }		       
+	 ],
+         "outputDir" : "/nextflow/test/output/k8s/sarscov2amp/J58JN_MiSeq8/",
+         "projectName" : "sarscov2",
+         "versionNum" : 1,
+         "subProjectName" : "amp",
+         "projectUrl" : null,
+         "sequencingDir" : null,
+         "numSamples" : 192,
+         "qaqcOutputDir" : "/nextflow/test/output/k8s/sarscov2amp/J58JN_MiSeq8/QAQC/"
+      }
+   ],
+   "launchType" : null
+}
+
